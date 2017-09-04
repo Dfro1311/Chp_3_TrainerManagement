@@ -26,6 +26,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NavDrawerActivity"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".HomePageActivity" />
+        <activity android:name=".CustomerListActivity" />
+        <activity android:name=".CustomerInformationActivity" />
+        <activity android:name=".SessionInformationActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".ReceiptsActivity"></activity>
     </application>
 
 </manifest>
